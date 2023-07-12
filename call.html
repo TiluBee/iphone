@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="call.css">
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+</head>
+<body>
+    <div class="but1"></div>
+    <div class="but2"></div>
+    <div class="but3"></div>
+    <div class="but4"></div>
+    <div class="case1">
+        <div class="case2">
+            <div class="case3">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <i class="icofont-lock"></i>
+                    <p>Friday, July 7</p>
+                    <div class="ji">1:12</div>
+                    <button class="flash"><i class="icofont-flash-light"></i></button><button class="flash" id="flashy"><i class="icofont-camera"></i></button><br>
+                    <div class="swipe">Swipe up to open</div>
+                    <button class="mini" onclick="lock()"></button>
+
+                </div>
+            </div>
+            <div class="case3" id="case3">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <p>Enter Passcode</p>
+                    <div><button class="dis" id="dis"></button><button class="dis" id="dat"></button><button class="dis" id="for"></button><button class="dis" id="four"></button><button class="dis" id="five"></button><button class="dis" id="six"></button></div>
+                    <button class="num" onclick="displaytext()">1</button><button class="num" onclick="displaytexty()">2</button><button class="num" onclick="displayi()">3</button><br>
+                    <button class="num" onclick="four()">4</button><button class="num" onclick="five()">5</button><button class="num" onclick="six()">6</button><br>
+                    <button class="num">7</button><button class="num">8</button><button class="num">9</button><br>
+                    <button class="num">0</button><br>
+                    <button class="down">Emergency</button><button class="down" id="down">cancle</button><br>
+                    <div class="swipe">Swipe up to open</div>
+                    <button class="mini" id="mini"></button>
+
+                </div>
+            </div>
+            <div class="case3" id="casy">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                                        
+                    
+                    
+                    <div class="ally">
+                    <div>
+                    <div class="moi">
+                    <div class="cally" id="san">San Francisco<br>
+                                       <b class="ij">67*</b><br><br>
+                                       <i class="icofont-cloudapp"></i><br>
+                                       Sunrise<br>
+                                       N:65* L:83*
+                    </div>
+                    
+                    <div class="cally" id="day"><b class="mon">Monday</b><br>
+                                       <b class="ij" id="st">9</b><br><br><br>
+                                       <a id="st">No events today</a>
+
+
+                    </div>
+                    </div>
+                    <a>weather</a><a class="wan">Calender</a>
+                    <div class="appy">
+                    <div>
+                        <button class="apps" id="apps"><i class="icofont-video"></i></button><br>
+                        <a class="dull">FaceTime</a>
+                    </div>
+                    <div>
+                        <button class="apps" id="end"><i class="icofont-calendar"></i></button><br>
+                        <a class="dull">Calendar</a>
+                    </div>
+                    <div>
+                        <button class="apps" id="noty"><i class="icofont-notebook"></i></button><br>
+                        <a class="dull">Notes</a>
+                    </div>
+                    <div>
+                        <button class="apps" id="not"><i class="icofont-ui-note"></i></button><br>
+                        <a class="dull">Reminders</a>
+                    </div>
+                    </div>
+                    <div class="appy">
+                        <div>
+                            <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                            <a class="dull">Clock</a>
+                        </div>
+                        <div>
+                            <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                            <a class="dull">Apple TV</a>
+                        </div>
+                        <div>
+                            <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                            <a class="dull">Wallet</a>
+                        </div>
+                        <div>
+                            <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                            <a class="dull">Settings</a>
+                        </div>
+                    </div>
+                        <div class="appy">
+                            <div>
+                                <button class="apps" id="map"><i class="icofont-map-pins"></i></button><br>
+                                <a class="dull">Maps</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="spot"><i class="icofont-spotify"></i></button><br>
+                                <a class="dull">Spotify</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="pod" onclick="cup()"><i class="icofont-network-tower"></i></button><br>
+                                <a class="dull">Airti Bank</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="cam"><i class="icofont-camera"></i></button><br>
+                                <a class="dull">Camera</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        
+                        <div class="appy" id="appi">
+                        <div>
+                            <button class="apps" id="apps"><i class="icofont-video"></i></button><br>
+                            <a class="dull">FaceTime</a>
+                        </div>
+                        <div>
+                            <button class="apps" id="end"><i class="icofont-calendar"></i></button><br>
+                            <a class="dull">Calendar</a>
+                        </div>
+                        <div>
+                            <button class="apps" id="noty"><i class="icofont-notebook"></i></button><br>
+                            <a class="dull">Notes</a>
+                        </div>
+                        <div>
+                            <button class="apps" id="not"><i class="icofont-ui-note"></i></button><br>
+                            <a class="dull">Reminders</a>
+                        </div>
+                        </div>
+                        <div class="appy">
+                            <div>
+                                <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                <a class="dull">Clock</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                <a class="dull">Apple TV</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                <a class="dull">Wallet</a>
+                            </div>
+                            <div>
+                                <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                <a class="dull">Settings</a>
+                            </div>
+                        </div>
+                            <div class="appy">
+                                <div>
+                                    <button class="apps" id="map"><i class="icofont-map-pins"></i></button><br>
+                                    <a class="dull">Maps</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="spot"><i class="icofont-spotify"></i></button><br>
+                                    <a class="dull">Spotify</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="pod"><i class="icofont-network-tower"></i></button><br>
+                                    <a class="dull">Podcasts</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="cam"><i class="icofont-camera"></i></button><br>
+                                    <a class="dull">Camera</a>
+                                </div>
+                            </div>
+                            <div class="appy">
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                    <a class="dull">Clock</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                    <a class="dull">Apple TV</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                    <a class="dull">Wallet</a>
+                                </div>
+                                <div>
+                                    <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                    <a class="dull">Settings</a>
+                                </div>
+                            </div>
+                            <div class="appy">
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                    <a class="dull">Clock</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                    <a class="dull">Apple TV</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                    <a class="dull">Wallet</a>
+                                </div>
+                                <div>
+                                    <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                    <a class="dull">Settings</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div>
+                        
+                            <div class="appy" id="appi">
+                            <div>
+                                <button class="apps" id="apps"><i class="icofont-video"></i></button><br>
+                                <a class="dull">FaceTime</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="end"><i class="icofont-calendar"></i></button><br>
+                                <a class="dull">Calendar</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="noty"><i class="icofont-notebook"></i></button><br>
+                                <a class="dull">Notes</a>
+                            </div>
+                            <div>
+                                <button class="apps" id="not"><i class="icofont-ui-note"></i></button><br>
+                                <a class="dull">Reminders</a>
+                            </div>
+                            </div>
+                            <div class="appy">
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                    <a class="dull">Clock</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                    <a class="dull">Apple TV</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                    <a class="dull">Wallet</a>
+                                </div>
+                                <div>
+                                    <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                    <a class="dull">Settings</a>
+                                </div>
+                            </div>
+                                <div class="appy">
+                                    <div>
+                                        <button class="apps" id="map"><i class="icofont-map-pins"></i></button><br>
+                                        <a class="dull">Maps</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="spot"><i class="icofont-spotify"></i></button><br>
+                                        <a class="dull">Spotify</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="pod"><i class="icofont-network-tower"></i></button><br>
+                                        <a class="dull">Podcasts</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="cam"><i class="icofont-camera"></i></button><br>
+                                        <a class="dull">Camera</a>
+                                    </div>
+                                </div>
+                                <div class="appy">
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                        <a class="dull">Clock</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                        <a class="dull">Apple TV</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                        <a class="dull">Wallet</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                        <a class="dull">Settings</a>
+                                    </div>
+                                </div>
+                                <div class="appy">
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                        <a class="dull">Clock</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                        <a class="dull">Apple TV</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                        <a class="dull">Wallet</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                        <a class="dull">Settings</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div>
+                        
+                                <div class="appy" id="appi">
+                                <div>
+                                    <button class="apps" id="apps"><i class="icofont-video"></i></button><br>
+                                    <a class="dull">FaceTime</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="end"><i class="icofont-calendar"></i></button><br>
+                                    <a class="dull">Calendar</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="noty"><i class="icofont-notebook"></i></button><br>
+                                    <a class="dull">Notes</a>
+                                </div>
+                                <div>
+                                    <button class="apps" id="not"><i class="icofont-ui-note"></i></button><br>
+                                    <a class="dull">Reminders</a>
+                                </div>
+                                </div>
+                                <div class="appy">
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                        <a class="dull">Clock</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                        <a class="dull">Apple TV</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                        <a class="dull">Wallet</a>
+                                    </div>
+                                    <div>
+                                        <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                        <a class="dull">Settings</a>
+                                    </div>
+                                </div>
+                                    <div class="appy">
+                                        <div>
+                                            <button class="apps" id="map"><i class="icofont-map-pins"></i></button><br>
+                                            <a class="dull">Maps</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="spot"><i class="icofont-spotify"></i></button><br>
+                                            <a class="dull">Spotify</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="pod"><i class="icofont-network-tower"></i></button><br>
+                                            <a class="dull">Podcasts</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="cam"><i class="icofont-camera"></i></button><br>
+                                            <a class="dull">Camera</a>
+                                        </div>
+                                    </div>
+                                    <div class="appy">
+                                        <div>
+                                            <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                            <a class="dull">Clock</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                            <a class="dull">Apple TV</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                            <a class="dull">Wallet</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                            <a class="dull">Settings</a>
+                                        </div>
+                                    </div>
+                                    <div class="appy">
+                                        <div>
+                                            <button class="apps" id="ppl"><i class="icofont-wall-clock"></i></button><br>
+                                            <a class="dull">Clock</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="ppl"><i class="icofont-brand-apple"></i></button><br>
+                                            <a class="dull">Apple TV</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps" id="wal"><i class="icofont-wallet"></i></button><br>
+                                            <a class="dull">Wallet</a>
+                                        </div>
+                                        <div>
+                                            <button class="apps"><i class="icofont-ui-settings"></i></button><br>
+                                            <a class="dull">Settings</a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                    </div>
+                    
+                            <button class="cash"><i class="icofont-search"></i> Search</button>
+                            <div class="pul">
+                                <div class="appy">
+                                    <div>
+                                        <button class="apps" id="apps" onclick="phone()"><i class="icofont-phone"></i></button><br>
+                                        
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="bro"><i class="icofont-ui-browser"></i></button><br>
+                                    
+                                    </div>
+                                    <div>
+                                        <button class="im">465</button>
+                                        <button class="apps" id="apps"><i class="icofont-ui-message"></i></button><br>
+                                    </div>
+                                    <div>
+                                        <button class="apps" id="mus"><i class="icofont-music"></i></button><br>
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+                    
+                </div>
+            </div>
+            <div id="cass">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <div class="screen" id="screen"></div>
+                    <a id="bush">Add Number</a><br>
+                    <button class="num" onclick="display(1)" id="nim" >1</button><button class="num" onclick="display(2)" id="er">2</button><button class="num" onclick="display(3)">3</button><br>
+                    <button class="num" onclick="display(4)">4</button><button class="num" onclick="display(5)">5</button><button class="num" onclick="display(6)">6</button><br>
+                    <button class="num" onclick="display(7)">7</button><button class="num" onclick="display(8)">8</button><button class="num"onclick="display(9)">9</button><br>
+                    <button class="num" onclick="displayy('*')">*</button><button class="num" onclick="display(0)">0</button><button class="num" onclick="displayy('#')">#</button><br>
+                    <button class="num" id="xxy" onclick="call()"><i class="icofont-phone"></i></button><button class="num" id="numy" onclick="clearone()"><i class="icofont-delete"></i></button
+                    <br>
+                    <div class="soil">
+                    <button><i class="icofont-star"></i><br>Favorite</button><button><i class="icofont-history"></i><br>Recents</button><button><i class="icofont-user"></i><br>Contacts</button><button><i class="icofont-gift-box"></i><br>Keypad</button><button><i class="icofont-send-mail"></i><br>Voicemail</button><br>
+                    </div>
+                    <button class="mini" id="mut" onclick="backhm()" ></button>
+
+                </div>
+            </div>
+            <div id="cavi">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <div class="wt"id ="wte" >
+                        <i class="icofont-ui-laoding"></i><br>
+                        Please Wait...
+                    </div>
+                    
+                    <button class="mini" id="mut" ></button>
+
+                </div>
+            </div>
+            <div id="cavy">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <div class="wty">
+                        Error performing request<br>
+                        Unknown Error
+                    </div>
+                    <button class="dim" onclick="back()">Dismiss</button><br><br>
+                    
+                    <button class="mini" id="mut" ></button>
+
+                </div>
+            </div>
+            <div id="working">
+            <div id="car">
+                
+            </div>
+            <div class="crazy">
+                <div class="vany">
+                <h3 id="fool">10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div id="crib"></div>
+                <a class="fh">calling....</a>
+                <div class="case4">
+                    <div class="driv" id="driv">
+                    <div>
+                    <button class="num" onclick="display(1)" id="fiy"><i class="icofont-mic-mute"></i></button><br>
+                    mute
+                    </div>
+                    <div>
+                    <button class="num" onclick="display(2)" id="fiy"><i class="icofont-gift-box"></i></button><br>
+                    Keypad
+                    </div>
+                    <div>
+                    <button class="num" onclick="display(3)" id="fiy"><i class="icofont-ui-volume"></i></button><br>
+                    speaker
+                    </div>
+                    </div>
+                    <div class="driv">
+                        <div>
+                        <button class="num" onclick="display(1)" id="fiy"><i class="icofont-ui-add"></i></button><br>
+                        add call
+                        </div>
+                        <div>
+                        <button class="num" onclick="display(2)" id="fiy"><i class="icofont-video"></i></button><br>
+                        FaceTime
+                        </div>
+                        <div>
+                        <button class="num" onclick="display(3)" id="fiy"><i class="icofont-user"></i></button><br>
+                        Contacts
+                        </div>
+                    </div>
+                    <button class="num" id="vg" onclick="end()"><i class="icofont-ui-call"></i></button><br><br><br>
+
+                    
+                    
+                    
+                    <button class="mini" id="mut" ></button>
+
+                </div>
+                </div>
+
+            </div>
+            <div id="hill">
+            <div id="kim">
+                
+            </div>
+            <div id="vanc">
+            <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <div class="wt">
+                        <div id="ldd"><i class="icofont-ui-laoding"></i></div>
+                        Please Wait...
+                    </div>
+                    
+                    <button class="mini" id="mut" ></button>
+
+                </div>
+            
+            
+            </div>
+            </div>
+            </div>
+            <div id="main">
+                <div class="vany">
+                <h3>10:30</h3>
+                <button class="high"></button>
+                <i class="icofont-signal"></i>
+                <h4 class="van">LTE</h4>
+                <i class="icofont-battery-empty"></i>
+                </div>
+                <div class="case4">
+                    <b class="head">TiluBee Airtime<br> Bank</b><br>
+                    <div class="ani" id="ani1"></div><div class="ani" id="ani2"></div>
+                    <div class="ani" id="ani3"></div><div class="ani" id="ani4"></div>
+                    <select id="network">
+                        <option disabled value="">Select your service provider</option>
+                        <option value="MTN">MTN</option>
+                        <option value="GLO">GLO</option>
+                        <option value="AIRTEL">AIRTEL</option>
+                        <option value="9MOBILE">9MOBILE</option>
+                    </select><br>
+                    <select id="amount">
+                        <option disabled value="">Select an amount</option>
+                        <option value="100">100</option>
+                        <option value="200">200</option>
+                        <option value="500">500</option>
+                        <option value="1000">1000</option>
+                    </select><br>
+                    <button onclick="generate()" id="gen">Generate Airtime</button>
+                    <div class="dft">
+                    <h1 id="airtime"></h1>
+                    </div>
+                    <h2>Airtime History</h2>
+                    <p id="history"></p>
+                    
+
+                    
+                    <button class="mini" onclick="backhome()" id="mut" ></button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    
+</body>
+<script src="call.js">
+</script>
+</html>

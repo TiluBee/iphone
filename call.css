@@ -1,0 +1,762 @@
+.case1{
+    width: 370px;
+    height: 650px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 45px;
+    background-color: darkgrey;
+}
+.case2{
+    width: 360px;
+    height: 640px;
+    border: 1px solid black;
+    margin: 5px 5px;
+    border-radius: 45px;
+    background-color: black;
+}
+.case3{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-image: linear-gradient(180deg,purple, black, purple);
+}
+.but1{
+    width: 5px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 120px;
+    left: 610px;
+    background-color: darkgrey;
+    /* border: none; */
+}
+.but2{
+    width: 5px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 170px;
+    left: 610px;
+    background-color: darkgrey;
+}
+.but3{
+    width: 5px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 240px;
+    left: 610px;
+    background-color: darkgrey;
+}
+.but4{
+    width: 5px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 170px;
+    left: 983px;
+    background-color: darkgrey;
+}
+.high{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px ;
+    background-color: black;
+}
+.van{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 18px 5px;
+}
+.vany{
+    display: flex;
+}
+.vany h3{
+    margin: 15px 30px;
+}
+.vany .icofont-signal{
+   margin: 18px 0px;
+}
+.icofont-battery-empty{
+    font-size: 25px;
+    margin-top: 15px;
+}
+.case4{
+    text-align: center;
+    font-family: sans-serif;
+}
+.mini{
+    width: 200px;
+    height: 6px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 20px;
+}
+.case4 .icofont-lock{
+    font-size: 20px;
+}
+.case4 p{
+    font-size: 20px;
+}
+.case4 .ji{
+    font-weight: 700;
+    font-size: 70px;
+}
+.flash{
+    font-size: 30px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 290px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+}
+.flash:hover{
+    scale: 1.2;
+}
+#flashy{
+    margin-left: 170px;   
+}
+.swipe{
+    animation-name: tolu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 738px;
+    animation-play-state: running;
+}
+@keyframes tolu {
+    from{
+        top: 595px;
+    }
+    to{
+        top: 600px;
+    }
+}
+#mini{
+    animation-name: toly;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 70px;
+    animation-play-state: running;
+}
+@keyframes toly {
+    from{
+        top: 575px;
+    }
+    to{
+        top: 580px;
+    }
+}
+#case3{
+    position: absolute;
+    top: 16px;
+    display: none;
+}
+#casei{
+    /* position: absolute; */
+    top: 0px;
+
+}
+.num{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border: none;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 5px;
+}
+.dis{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    border: 2px solid white;
+    background-color: black;
+    margin-left: 20px;
+    margin-bottom: 80px;
+    color: white;
+}
+.down{
+    font-size: 16px;
+    color: white;
+    border: none;
+    background: none;
+    margin-top: 20px;
+}
+#down{
+    margin-left: 120px;
+}
+#casy{
+    position: absolute;
+    top: 16px;
+    display: none;
+}
+.cally{
+    width:125px ;
+    height: 127px;
+    border-radius: 30px;
+    margin: 10px;
+    border: 1px solid black;
+    text-align: start;
+    padding-top: 13px;
+    padding-left: 15px;
+}
+.cally .ij{
+    font-size: 25px;
+}
+.cally i{
+    color: yellow;
+}
+.moi{
+    margin-left: 5px;
+    display: flex;
+}
+.mon{
+    color: red;
+    font-size: 15px;
+}
+#san{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#day{
+    background-color: white;
+}
+#st{
+    color: black;
+}
+.wan{
+    margin-left: 100px;
+}
+.apps{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    border: none;
+    font-size: 35px;
+    margin-top: 13px;
+    margin-left: 23px;
+}
+.dull{
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 20px;
+}
+.appy{
+    display: flex;
+    margin-left: 10px;
+}
+.pul{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid black;
+    border: none;
+    height: 75px;
+    border-radius:30px ;
+    margin: 0px 10px;
+}
+.cash{
+    border: 1px solid black;
+    height: 25px;
+    border-radius: 13.5px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    border: none;
+}
+.cash:hover{
+    scale: 1.2;
+}
+#apps{
+    background-color: green;
+    color: white;
+}#bro{
+    background-color: white;
+    color: blue;
+}
+#mus{
+    background-color: rgb(226, 60, 47);
+    color: white;
+}
+#ppl{
+    background-color: black;
+    color: white;
+}
+#cam{
+    color: black;
+    background-color: white;
+}
+#pod{
+    color: white;
+    background-color: lightcoral;
+}
+#spot{
+    color: lightgreen;
+    background-color: white;
+}
+#map{
+    color: blue;
+    background-color: white;
+}
+#wal{
+    color: red;
+    background-color: white;
+}
+#not{
+    color: yellow;
+    background-color: white;
+}
+#end{
+    color: chartreuse;
+    background-color: white;
+}
+#cass{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:black;
+    background-color: white;
+    position: absolute;
+    top: 16px;
+    display: none;
+}
+.screen{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: black;
+    height: 40px;
+}
+.soil{
+    margin-top: 15px;
+}
+.soil button{
+    margin-left: 5px;
+    border: 1px solid black;
+    border: none;
+    background: none;
+}
+.soil i{
+    font-size: 25px;
+}
+#numy{
+    background-color: white;
+}
+#xxy{
+    background-color: lightgreen;
+    margin-left: 90px;
+}
+#mut{
+    background-color: black;
+    margin-top: 0px;
+}
+#bush{
+    visibility: hidden;
+    transition: 2s linear;
+    color: blue;
+}
+#nim{
+    margin-top: 25px;
+}
+.ally{
+    display: flex;
+    overflow-x: scroll;
+}
+.ally::-webkit-scrollbar{
+    width: 1px;
+    height: 1px;
+}
+.kui{
+    height: 500px;
+    overflow-y: scroll;
+}
+.im{
+    position: absolute;
+    color: white;
+     background-color: red;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 40px;
+    height: 25px;
+    border-radius: 12.5px;
+    border: none;
+    left: 215px;
+}
+#appi{
+    margin-right: 30px;
+}
+#cavi{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-color: darkgray;
+    position: absolute;
+    top: 16px;
+    display: none;
+}
+.icofont-ui-laoding{
+    font-size: 30px;
+}
+.wt{
+    margin: 265px 0px;
+}
+#wte{
+    margin: 248px 0px;
+
+}
+#cavy{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-color: darkgray;
+    position: absolute;
+    top: 16px;
+    display: none;
+}
+.dim{
+    width: 310px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+.wty{
+    margin: 220px 0px;
+}
+#car{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-image: linear-gradient(180deg,rgba(128, 0, 128, 1), rgba(0,0,0,1),rgba(128, 0, 128, 1));
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    position: absolute;
+    top: 16px;
+    /* display: none; */
+}
+.crazy{
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 635px;
+}
+.driv{
+    display: flex;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#driv{
+    margin-top: 70px;
+}
+#crib{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    width: 330px;
+    height: 50px;
+    border: 1px solid black;
+    border: none;
+    text-align: center;
+}
+.fh{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 140px;
+    color: white;
+}
+#vg{
+    margin-top: 70px;
+    color: white;
+    background-color: red;
+}
+#fiy{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#working{
+    display: none;
+}
+.ggg{
+    width: 100px;
+    height: 300px;
+    border: 1px solid black;
+}
+#kim{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-image: linear-gradient(180deg,blue, black, blue);
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+    position: absolute;
+    top: 16px;
+    /* display: none; */
+}
+#vanc{
+    color: white;
+    position: absolute;
+    top: 23px;
+    left: 632px;
+}
+#ldd{
+    /* background-color: yellow; */
+    position: absolute;
+    left:140px ;
+    top: 280px;
+    animation-name: ldd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes ldd{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#hill{
+    display: none;
+}
+#main{
+    width: 340px;
+    height: 620px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    border-radius: 45px;
+    color:white;
+    background-image: linear-gradient(180deg,blue, black, blue);
+    position: absolute;
+    top: 16px;
+    left:620px ;
+    display: none;
+    z-index: 1;
+}
+.ani{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    position: absolute;
+     /* animation-timing-function: cubic-bezier(.17,.67,.95,.16); */
+     animation-iteration-count: infinite;
+     animation-direction:alternate;
+     animation-play-state: running;
+     animation-duration: 5s;
+     z-index: 1;
+}
+#ani1{
+    animation-name: ani1;
+    z-index: 1;
+
+}
+#ani2{
+    animation-name: ani2;
+}
+#ani3{
+    animation-name: ani3;
+}
+#ani4{
+    animation-name: ani4;
+}
+@keyframes ani4{
+    0%{
+        left: 280px;
+        background-image: linear-gradient(180deg,white, black, white);
+        top: 520px;
+    }
+    25%{
+        left: 200px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 520px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    50%{
+        left: 150px;
+        background-image: linear-gradient(30deg,blueviolet, white, blueviolet);
+        top: 520px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    75%{
+        left: 100px;
+        background-image: linear-gradient(180deg,cyan, darkgray);
+        top: 520px;
+        border-radius: 100%;
+    }
+    100%{
+        left: 0px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 520px;
+    }
+}
+@keyframes ani3{
+    0%{
+        left: 280px;
+        background-image: linear-gradient(180deg,white, black, white);
+        top: 520px;
+    }
+    25%{
+        left: 280px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 400px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    50%{
+        left: 280px;
+        background-image: linear-gradient(30deg,blueviolet, white, blueviolet);
+        top: 300px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    75%{
+        left: 280px;
+        background-image: linear-gradient(180deg,cyan, darkgray);
+        top: 150px;
+        border-radius: 100%;
+    }
+    100%{
+        left: 280px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 50px;
+    }
+}
+@keyframes ani2{
+    0%{
+        left: 0px;
+        background-image: linear-gradient(180deg,white, black, white);
+        top: 50px;
+    }
+    25%{
+        left: 50px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 50px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    50%{
+        left: 150px;
+        background-image: linear-gradient(30deg,blueviolet, white, blueviolet);
+        top: 50px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    75%{
+        left: 200px;
+        background-image: linear-gradient(180deg,cyan, darkgray);
+        top: 50px;
+        border-radius: 100%;
+    }
+    100%{
+        left: 280px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 50px;
+    }
+}
+@keyframes ani1{
+    0%{
+        left: 0px;
+        background-image: linear-gradient(180deg,white, black, white);
+        top: 50px;
+    }
+    25%{
+        left: 0px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 150px;
+        border-radius: 0px 30px 0px 30px;
+    }
+    50%{
+        left: 0px;
+        background-image: linear-gradient(30deg,blueviolet, white, blueviolet);
+        top: 300px;
+        border-radius: 0px 0px 30px 30px;
+    }
+    75%{
+        left: 0px;
+        background-image: linear-gradient(180deg,cyan, darkgray);
+        top: 400px;
+        border-radius: 100%;
+    }
+    100%{
+        left: 0px;
+        background-image: linear-gradient(90deg,chartreuse, black, chartreuse);
+        top: 520px;
+    }
+}
+#his{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: start;
+    margin-left: 20px;
+    z-index: 1;
+}
+.head{
+    font-weight:900;
+    font-size: 25px ;
+    font-family: sans-serif;
+    color: red;
+}
+#history{
+    width: 300px;
+    height: 210px;
+    /* background-color: green; */
+    overflow-y: scroll;
+}
+#history::-webkit-scrollbar{
+    width: 1px ;
+    height: 1px;
+}
+#network{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: blue;
+}
+#amount{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+}
+#gen{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    z-index: 2;
+    border-radius: 25px;
+}
+.dft{
+    height: 20px;
+}
+
+
